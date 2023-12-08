@@ -1,0 +1,2 @@
+Part 1 only works if you uncomment the lines in the Ord Implementations for Card and comment out the lines where Joker is less than the other types, and also switch the get_value() implementations. This is also why the unit tests are messed up.
+I couldn't find another way without making entirely seperate implementations of Card, HandType and Hand for each part. There is probably a clean way to accomplish this but I haven't figured it out yet.
